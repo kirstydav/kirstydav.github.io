@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Alice';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/alice/v20/OpNCnoEEmtHa6GcOrg4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: 'Alice', serif;
+    background-color: darkgray;
+}
+
+h1 {
+    color: indigo;;
+    text-align: center;
+}
+
+h2 {
+    color: indigo;
+    text-align: center;
+}
+
+h3 {
+    color: rebeccapurple;
+    font-size: 20px;
+}
+
+thead {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+table {
+    margin: 40px 10px;
+    color: rgb(60, 31, 65);
+    font-size: 15px;
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
