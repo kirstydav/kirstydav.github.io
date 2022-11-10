@@ -1,44 +1,320 @@
-@font-face {
-    font-family: 'Alice';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/alice/v20/OpNCnoEEmtHa6GcOrg4.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-body {
-    font-family: 'Alice', serif;
-    background-color: darkgray;
-}
-
 h1 {
-    color: indigo;;
+    font-family: Open sans, Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    color: indigo;
-    text-align: center;
+    font-family: Open sans, Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 h3 {
-    color: rebeccapurple;
+    font-family: Open sans, Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-thead {
-    font-size: 20px;
-    font-weight: bolder;
+h4 {
+    font-family: Open sans, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 0px;
 }
 
-table {
-    margin: 40px 10px;
-    color: rgb(60, 31, 65);
-    font-size: 15px;
-    width: 90%;
+p {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
 }
 
-table, th, td {
+footer {
+    font-family: Barlow italic, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    color: #8031A7;
+    border-top: #8031A7 solid 1px;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #8031A7;
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+}
+  
+.topnav a:hover {
+    background-color: white;
+    color: #8031A7;
+}
+  
+.topnav a.active {
+    background-color: black;
+    color: #8031A7;
+}
+
+.kt {
+    color: #8031A7;
+}
+
+.caption {
+    text-align: center;
+    color: #8031A7;
+}
+
+.menu button, a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.menu button, a:hover {
+    color: black;
+}
+    
+
+.purple, .black, .white {
+    display: inline-block;
+    width: 325px;
+}
+
+.purple {
+    text-align: center;
+    color: white;
+    background-color: #8031A7;
+    border-radius: 25px;
+    padding: 2px 25px;
+    margin: 0px 5px;
+}
+
+.purple:hover {
+    color: black;
+}
+
+.black {
+    color: #8031A7;
+    text-align: center;
+    background-color: black;
+    border-radius: 25px;
+    padding: 2px 25px;
+    margin: 0px 5px;
+}
+
+.black:hover {
+    color: white;
+}
+
+.black .white h3 {
+    color:#8031A7;
+}
+
+.white {
+    color: black;
+    text-align: center;
+    background-color: white;
     border: 1px solid;
+    border-radius: 25px;
+    padding: 2px 25px;
+    margin: 0px 10px;
+}
+
+.white:hover {
+    color: #8031A7;
+}
+
+th {
+    border: 2px solid black;
+    background-color:black;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
   }
+
+.open-sans {
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color:#8031A7;
+    padding: 10px;
+}
+
+.barlow {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #8031A7;
+    padding: 20px;
+}
+
+.os-regular-400 {
+    font-family: Open sans, Arial, Helvetica, sans-serif;
+}
+
+.os-regular-400-italic {
+    font-family: Open sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.os-bold-700 {
+    font-family: Open sans, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.b-light-300 {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.b-light-300-italic {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.b-semibold-600 {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.text-styles h3 {
+    color:#8031A7;
+    margin: 5px;
+}
+
+.text-styles ul {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    border: 1px solid black;
+    width: 200px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.h1, .h2 {
+    display: inline-block;
+}
+
+#h1, #h2, #h3, #h4 {
+    position: relative;
+    bottom: 60px;
+}
+
+.h3, .h4 {
+    display: inline-block;
+}
+
+#h3 {
+    margin-right: 60px;
+}
+
+.p {
+    display: inline-block;
+}
+
+#p {
+    position: relative;
+    bottom: 60px;
+    margin-right: 50px;
+}
+
+.extra-styles h3 {
+    color:#8031A7;
+}
+
+button {
+    display: inline-block;
+    background-color: #8031A7;
+    border: 5px solid black;
+    color: white;
+    text-align: center;
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid #8031A7;
+    color: black;
+    text-transform: uppercase;
+}
+
+.b1 {
+    background-color: #8031A7;
+    border: 5px solid black;
+    color: white;
+}
+
+.b1:hover {
+    background-color: white;
+    border: 2px solid #8031A7;
+    color: black;
+    text-transform: uppercase;
+}
+
+.b2 {
+    background-color: black;
+    border: 5px solid #8031A7;
+    color: white;
+}
+
+.b2:hover {
+    background-color: white;
+    border: 2px solid #8031A7;
+    color: black;
+    text-transform: uppercase;
+}
+
+.b3 {
+    background-color: white;
+    border: 5px solid #8031A7;
+    color: black;
+}
+
+.b3:hover {
+    background-color:#8031A7;
+    border: 2px solid black;
+    color: black;
+    text-transform: uppercase;
+}
+
+.b4 {
+    background-color: white;
+    border: 5px solid black;
+    color: #8031A7;
+}
+
+.b4:hover {
+    background-color:black;
+    border: 2px solid #8031A7;
+    color: white;
+    text-transform: uppercase;
+}
+
+.extra-styles ul {
+    font-family: Barlow, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+}
